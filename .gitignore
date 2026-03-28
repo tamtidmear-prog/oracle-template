@@ -1,0 +1,32 @@
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+.tmp/
+data/
+
+# Private — never push personal data
+ψ/active/
+ψ/memory/logs/
+ψ/memory/learnings/*
+!ψ/memory/learnings/.gitkeep
+ψ/memory/retrospectives/*
+!ψ/memory/retrospectives/.gitkeep
+ψ/memory/resonance/*
+!ψ/memory/resonance/.gitkeep
+ψ/writing/*
+!ψ/writing/.gitkeep
+ψ/archive/*
+!ψ/archive/.gitkeep
+ψ/learn/*
+!ψ/learn/.gitkeep
+ψ/outbox/*
+!ψ/outbox/.gitkeep
+ψ/lab/*
+!ψ/lab/.gitkeep
+ψ/inbox/*
+!ψ/inbox/.gitkeep
+
+# Auto-memory (local only)
+.claude-memory/
