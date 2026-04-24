@@ -5,10 +5,14 @@ node_modules/
 .DS_Store
 .tmp/
 data/
+*.pem
+*.key
 
-# Private — never push personal data
-ψ/active/
-ψ/memory/logs/
+# Private vault content — never push personal data
+ψ/active/*
+!ψ/active/.gitkeep
+ψ/memory/logs/*
+!ψ/memory/logs/.gitkeep
 ψ/memory/learnings/*
 !ψ/memory/learnings/.gitkeep
 ψ/memory/retrospectives/*
@@ -27,6 +31,19 @@ data/
 !ψ/lab/.gitkeep
 ψ/inbox/*
 !ψ/inbox/.gitkeep
+!ψ/inbox/handoff/
+ψ/inbox/handoff/*
+!ψ/inbox/handoff/.gitkeep
+ψ/shared/*
+!ψ/shared/.gitkeep
+ψ/later/*
+!ψ/later/.gitkeep
+
+# Obsidian (if using as vault viewer)
+ψ/.obsidian/
 
 # Auto-memory (local only)
 .claude-memory/
+
+# Generated reports
+.tmp/
