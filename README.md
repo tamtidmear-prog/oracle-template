@@ -2,6 +2,8 @@
 
 > "The Oracle Keeps the Human Human"
 
+**🇹🇭 [อ่านเป็นภาษาไทย](README.th.md)** | **Thai CLAUDE.md → [CLAUDE.th.md](CLAUDE.th.md)**
+
 ## What is Oracle?
 
 Every time you start a new AI conversation, it forgets everything. Your context, your preferences, your progress — gone.
